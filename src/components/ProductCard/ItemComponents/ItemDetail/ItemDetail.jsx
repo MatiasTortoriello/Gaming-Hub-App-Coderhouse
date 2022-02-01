@@ -18,7 +18,9 @@ const ItemDetail = ({item, addBasket, loading})=>{
         <div key={"Desc"+item.id} className="itemDetail" >
             <h3 className="descName">{item.name}</h3>
             <img src={img} alt={item.name} />
-            <p><span className="tag">Tipo: </span>{item.type}</p>
+            <p><span className="tag">Género: </span>{item.type}</p>
+            <p><span className="tag">Desarrolladora: </span>{item.developer}</p>
+            <p><span className="tag">Plataforma: </span>{item.platform}</p>
             <p><span className="tag">Descripción: </span>{item.description}.</p>
             <p><span className="tag">Precio: </span>${item.price}</p>
             <p><span className="tag">Stock: </span>{item.stock}</p>
