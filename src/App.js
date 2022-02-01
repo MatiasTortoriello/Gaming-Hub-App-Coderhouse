@@ -7,7 +7,6 @@ import Footer from './components/bases/Footer/Footer';
 import Landing from './components/Landing/Landing';
 import Cart from './components/Cart/Cart';
 import AboutUs from './components/AboutUs/AboutUs';
-import Adoption from './components/Adoption/Adoption';
 import Contact from './components/Contact/Contact';
 import ItemDetailContainer from './components/ProductCard/ItemComponents/ItemDetailContainer/ItemDetailContainer';
 import Category from './components/Category/Category';
@@ -107,7 +106,6 @@ function App() {
           <Route path="/item/:id" element={<ItemDetailContainer prodList={products} addBasket={addBasket}/>}/>
           <Route path="/category/:type" element={<Category prodList={products} addBasket={addBasket}/>}/>
           <Route path="/nosotros" element={<AboutUs/>}/>
-          <Route path="/adopcion" element={<Adoption/>}/>
           <Route path="/contacto" element={<Contact/>}/>
         </Routes>
         <Footer/>

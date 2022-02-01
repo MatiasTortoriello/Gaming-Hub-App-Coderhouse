@@ -6,11 +6,10 @@ const Contact = ()=>{
         <section className="contactSection">
             <h2>Contacto</h2>
             <div>
-                <p><b>Email:</b> apfm21@Gmail.com .</p>
-                <p><b>Telefono:</b> 4545-5454 .</p>
-                <p><b>Local:</b> Avenida Siempre Viva 123, Springfield, USA.</p>
-                <p><b>Github:</b> <a href="https://github.com/AndresPataFM" target="_blank" rel="noreferrer">Link</a>.</p>
-                <p><b>Linkedin:</b> <a href="https://www.linkedin.com/in/andr%C3%A9s-pata-fraile-de-manterola-b50ba9191/" target="_blank" rel="noreferrer">Link</a>.</p>
+                <p><b>Email:</b> matiastortoriello1991@gmail.com .</p>
+                <p><b>Telefono:</b> +5491168177905 .</p>
+                <p><b>Local:</b> Road Street Downtown 844-710.</p>
+                <p><b>Github:</b> <a href="https://github.com/MatiasTortoriello" target="_blank" rel="noreferrer">Link</a>.</p>
             </div>
         </section>
     )

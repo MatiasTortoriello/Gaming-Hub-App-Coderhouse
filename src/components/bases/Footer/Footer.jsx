@@ -9,10 +9,10 @@ const Footer = ()=>{
     return(
             <footer>
                 <div>
-                    <a href="https://www.linkedin.com/in/andr%C3%A9s-pata-fraile-de-manterola-b50ba9191/" target="_blank" rel="noreferrer"><img src={linkedin} alt="Linkedin" /></a>
-                    <a href="https://github.com/AndresPataFM" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
+                    <a href="https://www.linkedin.com/in/matiastortoriello/" target="_blank" rel="noreferrer"><img src={linkedin} alt="Linkedin" /></a>
+                    <a href="https://github.com/MatiasTortoriello" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
                 </div>
-                <p>El Almacen © 2022 Copyright</p>
+                <p>Gaming-Hub © 2021-2022 Copyright</p>
             </footer>
     )
 }

@@ -3,8 +3,8 @@ import "./Landing.css"
 
 import ItemListContainer from "../ProductCard/ItemListContainer/ItemListContainer";
 
-const greeting = "¡Bienvenidos a El Almacen, donde nos aseguramos de cuidar a sus mascotas y a usted! "
-const siteDesc = "En nuestro humilde local proveemos servicios de petshop y adopción con los estándares más altos del mercado. ¡Si el producto no cumple con los requisitos, recibirá una devolución garantizada!"
+const greeting = "Bienvenidos a Gaming-Hub, el lugar donde comprar los mejores juegos al mejor precio!"
+const siteDesc = "Seleccioná el juego desde la lista y agregalo al carrito"
 
 const Landing = ({prodList})=>{
     return(

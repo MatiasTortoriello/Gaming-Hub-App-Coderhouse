@@ -18,9 +18,9 @@ const ItemListFilter = ({type})=>{
             <label htmlFor="itemListFilter"><b>Categoria: </b></label>
             <select defaultValue={type} onChange={event => handleChange(event.target.value)} id="itemListFilter">
                 <option value="Todo">Todo</option>
-                <option value="Medicinal">Medicinal</option>
-                <option value="Alimento">Alimento</option>
-                <option value="Juguete">Juguete</option>
+                <option value="Medicinal">Estrategia</option>
+                <option value="Alimento">RPG</option>
+                <option value="Juguete">Shooter</option>
             </select>
         </form>
     )
