@@ -3,7 +3,7 @@ import "./ItemDetail.css"
 // Components
 import ItemCount from "../ItemCount/ItemCount";
 // Img
-import fallback from "./../../../../img/products/fallback.png"
+import fallback from "./../../../../img/products/fallbackjoystick.png"
 
 
 

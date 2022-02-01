@@ -5,7 +5,7 @@ import "./NavBar.css"
 //Componentes
 import CartWidget from "../CartWidget/CartWidget";
 //Imágenes
-import logo from "./../../../img/dog-pawprint-in-a-house.svg"
+import logo from "./../../../img/products/fallbackjoystick.png"
 
 
 const NavBar = ({size})=>{
@@ -14,7 +14,7 @@ const NavBar = ({size})=>{
             <Link to={"/"}>
                 <img src={logo} alt="logo" className="logo"/>
             </Link>
-            <h1>El Almacén</h1>
+            <h1>Gaming Hub</h1>
             <div className="activeMenu">
                 <div>
                     <Link to={'/canasta'}><CartWidget/></Link>

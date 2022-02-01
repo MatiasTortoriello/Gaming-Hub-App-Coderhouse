@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Item.css";
 //Img
-import fallback from "./../../../img/products/fallback.png"
+import fallback from "./../../../img/products/fallbackjoystick.png"
 
 const Item = ({item})=>{
     let product = item
