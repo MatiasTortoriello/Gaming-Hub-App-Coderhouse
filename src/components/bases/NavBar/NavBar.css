@@ -1,13 +1,13 @@
 header{
     color: whitesmoke;
-    background-color: blueviolet;
+    background-color: rgb(47, 34, 158);
     width: 100%;
     height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1%;
-    border-bottom: 5px outset blueviolet;
+    border-bottom: 5px outset rgb(32, 34, 136);
 }
 
 .logo{
