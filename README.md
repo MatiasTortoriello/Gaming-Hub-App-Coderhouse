@@ -3,19 +3,19 @@
 Simulación de tienda de videojuegos en formato físico para PC y Consolas creado con ReactJS
 
 ## Routing
-![Routing](./src/img/ElAlmacen.gif)
+![Routing](./src/img/GamingHub.gif)
 
 
-### Plugins usados
+### Librerías usadas
 
-Instalar [sweetalert2](https://sweetalert2.github.io/)
+[sweetalert2](https://sweetalert2.github.io/)
 
 
 ```
 npm install sweetalert2
 ```
 
-instalar [AOS](https://michalsnik.github.io/aos/)
+[AOS](https://michalsnik.github.io/aos/)
 
 
 ```

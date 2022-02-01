@@ -50,7 +50,7 @@ function App() {
       tempBasket.push({item: item, quantity: quantity})
       setBasket(tempBasket)
       Swal.fire({
-        title: `Felicitaciones`,
+        title: `Item agregado!`,
         text: `Se ha agregado ${quantity} unidad/es de ${item.name} a su canasta.`,
         width: 600,
         padding: '3em',
