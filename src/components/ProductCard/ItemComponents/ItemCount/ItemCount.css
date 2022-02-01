@@ -6,7 +6,7 @@
 .counter p{
     margin: 0;
     border-style: solid;
-    border:  2px solid blueviolet;
+    border:  2px solid rgb(20, 16, 214);
     text-align: center;
     padding-top: 2px;
 }
@@ -15,10 +15,10 @@
     width: 25px;
     border-radius: 5px 0 0 5px;
     text-align: center;
-    border:  3px outset blueviolet;
+    border:  3px outset rgb(17, 36, 204);
 }
 .minusButton:hover{
-    border: 3px inset blueviolet;
+    border: 3px inset rgb(63, 53, 206);
     font-weight: bold;
 }
 .plusButton{
@@ -26,17 +26,17 @@
     width: 25px;
     border-radius: 0 5px 5px 0;
     text-align: center;
-    border:  3px outset blueviolet;
+    border:  3px outset rgb(19, 45, 189);
     font-weight: bold;
 }
 .plusButton:hover{
-    border: 3px inset blueviolet;
+    border: 3px inset rgb(47, 36, 146);
     
 }
 
 .addToCartButton{
     width: 80px;
-    border:  3px outset blueviolet;
+    border:  3px outset rgb(39, 21, 194);
     border-radius: 5px;
     font-weight: bold;
 

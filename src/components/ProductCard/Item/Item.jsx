@@ -12,7 +12,7 @@ const Item = ({item})=>{
         navigate(`/item/${item.id}`)
     }
     try{
-        img = require(`./../../../img/products/${item.name+item.id}.png`)
+        img = require(`./../../../img/products/${item.name+item.id}.jpg`)
     } catch {
         img =  fallback
     }

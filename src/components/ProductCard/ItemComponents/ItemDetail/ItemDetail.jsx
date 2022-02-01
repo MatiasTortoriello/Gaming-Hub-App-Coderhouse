@@ -10,7 +10,7 @@ import fallback from "./../../../../img/products/fallback.png"
 const ItemDetail = ({item, addBasket, loading})=>{
     let img
     try{
-        img = require(`./../../../../img/products/${item.name+item.id}.png`)
+        img = require(`./../../../../img/products/${item.name+item.id}.jpg`)
     } catch {
         img =  fallback
     }
